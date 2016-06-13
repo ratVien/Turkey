@@ -1510,7 +1510,7 @@ class simple_html_dom
         // PaperG: Attributes should not have \r or \n in them, that counts as html whitespace.
         $node->attr[$name] = str_replace("\r", "", $node->attr[$name]);
         $node->attr[$name] = str_replace("\n", "", $node->attr[$name]);
-        // PaperG: If this is a "class" selector, lets get rid of the preceeding and trailing space since some people leave it in the multi class case.
+        // PaperG: If this is a "class" selector, lets get rid of the preceding and trailing space since some people leave it in the multi class case.
         if ($name == "class") {
             $node->attr[$name] = trim($node->attr[$name]);
         }

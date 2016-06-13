@@ -609,7 +609,7 @@ class PHPExcel_Writer_Excel5_Parser
 	 * args that it takes.
 	 *
 	 * @access private
-	 * @param string  $token    The name of the function for convertion to ptg value.
+	 * @param string  $token    The name of the function for conversion to ptg value.
 	 * @param integer $num_args The number of arguments the function receives.
 	 * @return string The packed ptg for the function
 	 */

@@ -556,7 +556,7 @@ class PHPExcel_Calculation_LookupRef {
 //				echo '$i='.$i.'<br />';
 				// if match_type is -1 <=> find the smallest value that is greater than or equal to lookup_value
 				if ($i < 1){
-					// 1st cell was allready smaller than the lookup_value
+					// 1st cell was already smaller than the lookup_value
 					break;
 				} else {
 					// the previous cell was the match
@@ -573,7 +573,7 @@ class PHPExcel_Calculation_LookupRef {
 //				echo '$i='.$i.'<br />';
 				// if match_type is 1 <=> find the largest value that is less than or equal to lookup_value
 				if ($i < 1){
-					// 1st cell was allready bigger than the lookup_value
+					// 1st cell was already bigger than the lookup_value
 					break;
 				} else {
 					// the previous cell was the match

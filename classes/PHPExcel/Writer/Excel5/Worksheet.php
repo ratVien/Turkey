@@ -2738,7 +2738,7 @@ class PHPExcel_Writer_Excel5_Worksheet extends PHPExcel_Writer_Excel5_BIFFwriter
 			$data = $writer->close();
 			$spOffsets = $writer->getSpOffsets();
 			$spTypes = $writer->getSpTypes();
-			// write the neccesary MSODRAWING, OBJ records
+			// write the necessary MSODRAWING, OBJ records
 
 			// split the Escher stream
 			$spOffsets[0] = 0;

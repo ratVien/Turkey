@@ -6649,7 +6649,7 @@ class PHPExcel_Reader_Excel5 extends PHPExcel_Reader_Abstract implements PHPExce
 
 
 	/**
-	 * Convert UTF-8 string to string surounded by double quotes. Used for explicit string tokens in formulas.
+	 * Convert UTF-8 string to string surrounded by double quotes. Used for explicit string tokens in formulas.
 	 * Example:  hello"world  -->  "hello""world"
 	 *
 	 * @param string $value UTF-8 encoded string

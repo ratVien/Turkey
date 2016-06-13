@@ -3230,7 +3230,7 @@ class PHPExcel_Calculation_Statistical {
 			//	pascal function on p81 of "Statistical Computing in Pascal" by D
 			//	Cooke, A H Craven & G M Clark (1985: Edward Arnold (Pubs.) Ltd:
 			//	London). The above Pascal algorithm is itself a translation of the
-			//	fortran algoritm "AS 3" by B E Cooper of the Atlas Computer
+			//	fortran algorithm "AS 3" by B E Cooper of the Atlas Computer
 			//	Laboratory as reported in (among other places) "Applied Statistics
 			//	Algorithms", editied by P Griffiths and I D Hill (1985; Ellis
 			//	Horwood Ltd.; W. Sussex, England).

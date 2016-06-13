@@ -1200,7 +1200,7 @@ class PHPExcel_Writer_HTML extends PHPExcel_Writer_Abstract implements PHPExcel_
 						}
 					}
 
-					// Converts the cell content so that spaces occuring at beginning of each new line are replaced by &nbsp;
+					// Converts the cell content so that spaces occurring at beginning of each new line are replaced by &nbsp;
 					// Example: "  Hello\n to the world" is converted to "&nbsp;&nbsp;Hello\n&nbsp;to the world"
 					$cellData = preg_replace("/(?m)(?:^|\\G) /", '&nbsp;', $cellData);
 

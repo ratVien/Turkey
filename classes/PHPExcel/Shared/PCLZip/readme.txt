@@ -78,7 +78,7 @@
   Version 2.6 :
     - Code optimisation
     - New attributes PCLZIP_ATT_FILE_COMMENT gives the ability to
-      add a comment for a specific file. (Don't really know if this is usefull)
+      add a comment for a specific file. (Don't really know if this is useful)
     - New attribute PCLZIP_ATT_FILE_CONTENT gives the ability to add a string 
       as a file.
     - New attribute PCLZIP_ATT_FILE_MTIME modify the timestamp associated with

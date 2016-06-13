@@ -57,7 +57,7 @@ class PHPExcel_Shared_CodePage
 			case 855:	return 'CP855';				break;	//	OEM Cyrillic
 			case 857:	return 'CP857';				break;	//	OEM Turkish
 			case 858:	return 'CP858';				break;	//	OEM Multilingual Latin I with Euro
-			case 860:	return 'CP860';				break;	//	OEM Portugese
+			case 860:	return 'CP860';				break;	//	OEM Portuguese
 			case 861:	return 'CP861';				break;	//	OEM Icelandic
 			case 862:	return 'CP862';				break;	//	OEM Hebrew
 			case 863:	return 'CP863';				break;	//	OEM Canadian (French)

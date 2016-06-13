@@ -3032,7 +3032,7 @@ class PHPExcel_Calculation {
 			} elseif (isset(self::$_operators[$opCharacter]) && !$expectingOperator) {
 				return $this->_raiseFormulaError("Formula Error: Unexpected operator '$opCharacter'");
 			} else {	// I don't even want to know what you did to get here
-				return $this->_raiseFormulaError("Formula Error: An unexpected error occured");
+				return $this->_raiseFormulaError("Formula Error: An unexpected error occurred");
 			}
 			//	Test for end of formula string
 			if ($index == strlen($formula)) {

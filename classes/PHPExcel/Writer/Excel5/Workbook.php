@@ -1395,7 +1395,7 @@ class PHPExcel_Writer_Excel5_Workbook extends PHPExcel_Writer_Excel5_BIFFwriter
 		// combine into one chunk with all the blocks SST, CONTINUE,...
 		$chunk = '';
 		foreach ($recordDatas as $i => $recordData) {
-			// first block should have the SST record header, remaing should have CONTINUE header
+			// first block should have the SST record header, remaining should have CONTINUE header
 			$record = ($i == 0) ? 0x00FC : 0x003C;
 
 			$header = pack("vv", $record, strlen($recordData));

@@ -186,7 +186,7 @@ VDB			= VDB				##	Renvoie l’amortissement d’un bien pour une période spéci
 XIRR			= TRI.PAIEMENTS			##	Calcule le taux de rentabilité interne d’un ensemble de paiements non périodiques.
 XNPV			= VAN.PAIEMENTS			##	Renvoie la valeur actuelle nette d’un ensemble de paiements non périodiques.
 YIELD			= RENDEMENT.TITRE		##	Calcule le rendement d’un titre rapportant des intérêts périodiquement.
-YIELDDISC		= RENDEMENT.SIMPLE		##	Calcule le taux de rendement d’un emprunt à intérêt simple (par exemple, un bon du Trésor).
+YIELDDISC		= RENDEMENT.SIMPLE		##	Calcule le taux de rendement d’un emprunt à intérêt simple (par example, un bon du Trésor).
 YIELDMAT		= RENDEMENT.TITRE.ECHEANCE	##	Renvoie le rendement annuel d’un titre qui rapporte des intérêts à l’échéance.
 
 

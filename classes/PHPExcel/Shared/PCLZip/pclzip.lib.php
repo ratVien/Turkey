@@ -2386,7 +2386,7 @@
   // Function : privAddList()
   // Description :
   //   $p_add_dir and $p_remove_dir will give the ability to memorize a path which is
-  //   different from the real path of the file. This is usefull if you want to have PclTar
+  //   different from the real path of the file. This is useful if you want to have PclTar
   //   running in any directory, and memorize relative path from an other directory.
   // Parameters :
   //   $p_list : An array containing the file or directory names to add in the tar

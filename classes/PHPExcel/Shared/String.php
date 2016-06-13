@@ -77,14 +77,14 @@ class PHPExcel_Shared_String
 	private static $_currencyCode;
 
 	/**
-	 * Is mbstring extension avalable?
+	 * Is mbstring extension available?
 	 *
 	 * @var boolean
 	 */
 	private static $_isMbstringEnabled;
 
 	/**
-	 * Is iconv extension avalable?
+	 * Is iconv extension available?
 	 *
 	 * @var boolean
 	 */
